@@ -13,5 +13,5 @@ const deleteContact = createAction('contacts/Delete');
 
 const changeFilter = createAction('contacts/Filter');
 
-
+// eslint-disable-next-line
 export default { addContact, deleteContact, changeFilter };
